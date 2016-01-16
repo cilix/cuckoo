@@ -11,7 +11,6 @@
 
 #define hashfn(n, s, l, z) hash##n(s, l, z)
 
-/* comment */
 #define isoccupied(x) (x & 0x1)
 #define hashused(x)   ((x >> 1) & 0x1)
 

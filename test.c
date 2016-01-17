@@ -5,6 +5,7 @@
 
 #include "hash.h"
 
+/* get word from file */
 Byte_t* getWord (FILE* f) {
   Byte_t* buf = NULL;
   int c = 0, i = 0, bufsize = 10;
